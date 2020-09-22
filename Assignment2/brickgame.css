@@ -1,0 +1,44 @@
+body {
+    background: black;
+    
+}
+#Score {
+    text-align: right;
+    top: 0px;
+    color: white;
+
+}
+table {
+    width: 90%;
+
+}
+td {
+    width: 30%;
+}
+tr{ 
+    background: red;
+    width: 30px;
+    height: 50px;
+    padding: 100px;
+    position: relative;
+}
+
+.yellow {
+    background: yellow;
+    position: relative;
+}
+
+.green {
+    background: green;
+    position: relative;
+}
+
+.blue {
+    background: rgb(19, 19, 255);
+    position: relative;
+}
+
+.black {
+    background: black;
+    position: relative;
+}
