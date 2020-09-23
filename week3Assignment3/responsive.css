@@ -1,0 +1,46 @@
+ #menu {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+#menu div{
+    margin: 10px;
+}
+
+#content {
+    display: flex;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    
+}
+
+label {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+#photo {
+    display: flex wrap;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    #container #menu #photo #content {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
+}
